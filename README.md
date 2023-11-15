@@ -51,4 +51,5 @@ Using Command Palette (CMD/CTRL + Shift + P)
 - Installed Angular Material: npm install --save @angular/material
 - Add Angular Material: ng add @angular/material
 - Generated header component: ng g c header-nav
-- Generated login component: ng g c Login
+- Generated login component: ng g c login
+- Generated overview-page component: ng g c overview-page

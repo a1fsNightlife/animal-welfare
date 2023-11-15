@@ -1,0 +1,44 @@
+<mat-toolbar>
+  <h1><b>Animal Welfare</b></h1>
+  <span class="example-spacer"></span>
+  <button
+    mat-icon-button
+    class="login-icon-btn"
+    aria-label="Login"
+    (click)="navToLogin()"
+  >
+    <mat-icon>account_circle</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    class="language-icon-btn"
+    aria-label="Change language"
+    [matMenuTriggerFor]="belowMenu"
+  >
+    <mat-icon>language</mat-icon>
+  </button>
+  <mat-menu #belowMenu="matMenu">
+    <button mat-menu-item>
+      <span class=".menu-btn">
+        <img
+          src="../../assets/lang/germany.png"
+          alt="germany 1"
+          width="24"
+          height="24"
+        />
+        <span>Deutsch</span>
+      </span>
+    </button>
+    <button class="menu-btn" mat-menu-item>
+      <span>
+        <img
+          href="../../assets/lang/united-kingdom.png"
+          alt="english 1"
+          width="24"
+          height="24"
+        />
+        <span>English</span>
+      </span>
+    </button>
+  </mat-menu>
+</mat-toolbar>

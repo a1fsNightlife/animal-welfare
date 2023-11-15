@@ -1,27 +1,54 @@
-# AnimalWelfare
+<h1 align="center">Animal Welfare Application</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular,ts,html,css"/>
+  </a>
+</p>
+<hr>
 
-## Development server
+## 🐕 Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<hr>
 
-## Code scaffolding
+Welcome to the **Animal Welfare Application** 🐶
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+a project created with a passion for animal welfare and the desire to support the Animal Protection Association.
 
-## Build
+This application is dedicated to helping animals in need, and it is being developed for free.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+As a dedicated dog foster parent serving the Animal Protection Association, you are making a significant impact on the lives of animals in your care.
 
-## Running unit tests
+## 🐕 Getting started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Prerequisites for local development:
 
-## Running end-to-end tests
+- Angular 16
+- NodeJS 20.9.0
+- npm 10.2.3
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Formatting
 
-## Further help
+All code is formatted using the VSCode Plugin [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Usage
+
+Using Command Palette (CMD/CTRL + Shift + P)
+
+- CMD + Shift + P -> Format Document
+
+  OR
+
+- Select the text you want to Prettify
+- CMD + Shift + P -> Format Selection
+
+# Change Log
+
+### 15.12.2023
+
+- created Angular project: ng new animal-welfare
+- Installed Angular Animations: npm install --save @angular/animations
+- Installed Angular Material: npm install --save @angular/material
+- Add Angular Material: ng add @angular/material
+- Generated header component: ng g c header-nav
+- Generated login component: ng g c Login

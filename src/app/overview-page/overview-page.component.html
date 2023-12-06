@@ -1,5 +1,18 @@
-<app-header-nav></app-header-nav>
 <div class="container">
-  <h2>Animal Welfare</h2>
-  <p>Some text</p>
+  <h1 class="headline"><a href="#">Animal Welfare</a></h1>
+
+  <div class="overview">
+    <div *ngFor="let dog of dogs" class="animal-card">
+      <h3>Butschi</h3>
+      <hr />
+      <img src="../../assets/dogs/example.jpg" />
+      <hr />
+      <p class="description">
+        This is Butschi. He likes playing outside a lot, aswell as meeting his
+        friends in the park.
+      </p>
+      <hr />
+      <button class="details-btn" mat-button>Show me more!</button>
+    </div>
+  </div>
 </div>

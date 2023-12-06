@@ -8,6 +8,12 @@ main {
   background-color: var(--bg-primary);
   transition: width 600ms ease;
   overflow: none;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
 }
 
 .navbar-nav {
@@ -102,6 +108,12 @@ main {
     bottom: 0;
     width: 100vw;
     height: 5rem;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top, darkblue, darkorchid) 1;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
   }
 
   .logo {

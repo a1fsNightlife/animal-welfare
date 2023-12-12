@@ -14,6 +14,8 @@ main {
   border-left: none;
   border-top: none;
   border-bottom: none;
+  //use z-index with value 2, to avoid overlapping overview content
+  z-index: 2;
 }
 
 .navbar-nav {
@@ -147,6 +149,7 @@ main {
 
   .navbar:hover .link-text {
     display: inline;
+    overflow-x: hidden;
   }
 
   .navbar:hover .logo svg {

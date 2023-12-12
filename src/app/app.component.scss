@@ -1,0 +1,12 @@
+.container {
+  min-height: 100vh;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-width: 260px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    margin-left: 5em;
+  }
+}

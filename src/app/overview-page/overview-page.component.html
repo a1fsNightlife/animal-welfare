@@ -1,1 +1,18 @@
-<p>overview-page works!</p>
+<div class="container">
+  <h1 class="headline"><a href="#">Animal Welfare</a></h1>
+
+  <div class="overview">
+    <div *ngFor="let dog of dogs" class="animal-card">
+      <h3 class="dog-name">Butschi</h3>
+      <hr />
+      <img class="dog-img" src="../../assets/dogs/example.jpg" />
+      <hr />
+      <p class="description">
+        This is Butschi. He likes playing outside a lot, aswell as meeting his
+        friends in the park.
+      </p>
+      <hr />
+      <button class="details-btn">Show me more!</button>
+    </div>
+  </div>
+</div>
